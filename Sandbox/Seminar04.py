@@ -23,3 +23,7 @@ print("Closing the program...")
 # 5) is_mutant
 # 6) list_index
 
+# Dynamic output
+data = [['Derek', 7], ['Xavier', 80], ['Bob', 612], ['Chantanelle', 9]]
+for pair in data:
+    print(f"{pair[0]:11} = {pair[1]:3}")
